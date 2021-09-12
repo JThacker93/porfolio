@@ -1,0 +1,124 @@
+body {
+  background-color: #c2c8d6;
+  margin: 0;
+}
+
+header {
+  background-color: #634785;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  height: 100px;
+}
+
+h1 {
+  color: #f7fff7;
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  text-align: center;
+
+  margin: 0;
+  padding: 30px;
+}
+
+h2,
+h3 {
+  font-family: "League Gothic";
+  text-align: center;
+}
+
+footer {
+  background-color: #634785;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  color: #f7fff7;
+  height: 40px;
+}
+
+hr {
+  background-color: #634785;
+  border: none;
+  border-radius: 6px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  height: 7px;
+  margin: 0 15%;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #358a5b;
+}
+
+a:hover {
+  color: #1271ca;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #1271ca;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-align: left;
+}
+
+ol {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-picture {
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  display: block;
+  margin: 5% auto;
+  min-width: 350px;
+  opacity: 0.8;
+  width: 35vw;
+}
+
+.about {
+  margin: 5% auto;
+  min-width: 400px;
+  width: 40%;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.contact {
+  width: 40%;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+.links {
+  font-size: 30px;
+  margin: 0 5%;
+}
+
+.footer-text {
+  padding-top: 5px;
+}
